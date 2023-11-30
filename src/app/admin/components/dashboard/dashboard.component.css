@@ -1,5 +1,5 @@
 .dash-top{
-    background-color: var(--bgorange);
+    background-color: black;
     height: 8vh;
     width: 100%;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
@@ -27,7 +27,7 @@
 .dash-top .dropdown button{
    width: 150px;
    border: none;
-   background-color: black;
+   background-color: var(--bgorange);
    height: 40px;
 }
 .dash-top .dropdown-menu {
@@ -68,4 +68,10 @@
 }
 .dash-bottom .dash-left .links i{
     color: black;
+}
+
+#image{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
 }
