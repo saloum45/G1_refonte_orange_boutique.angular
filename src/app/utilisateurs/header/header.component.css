@@ -37,3 +37,21 @@
     
 }
 
+
+    /* Design_formulaire_de_connexion */
+.form-label{
+    color: var(--bgorange);
+}
+
+#contentMod{
+    width: 70%;
+}
+#btnConnect{
+    background-color: var(--bgorange);
+    color: white;
+    font-weight: bold;
+    padding: 5px;
+}
+#imgFomrConnex{
+    width: 400px;
+}
