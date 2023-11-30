@@ -1,1 +1,27 @@
-<p>dashboard works!</p>
+<div class="dash-top d-flex justify-content-between px-5">
+    <a class="navbar-brand" id="logo">Orange<sup>TM</sup> </a>
+<input type="text">
+<div class="dropdown">
+    <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+    <i class="bi bi-person-fill"></i> Profile
+    </button>
+    <ul class="dropdown-menu">
+      <li><a class="dropdown-item" href="#">Déconnexion</a></li>
+    </ul>
+  </div>
+</div>
+<div class="dash-bottom">
+    <div class="dash-left">
+        <div class="links">
+            <a routerLink="accueil" ><i class="bi bi-house-check-fill"></i> Accueil</a>
+            <a routerLink="categorie" ><i class="bi bi-inboxes"></i> Catégorie</a>
+            <a routerLink="produit" ><i class="bi bi-bullseye"></i> Produits</a>
+            <a routerLink="offre" ><i class="bi bi-browser-edge"></i> Offres</a>
+            <a routerLink="feedback" ><i class="bi bi-envelope-arrow-down"></i> Feedback</a>
+            <a routerLink="commande" ><i class="bi bi-bag-check-fill"></i> Commandes</a>
+        </div>
+    </div>
+    <div class="dash-right">
+        <router-outlet></router-outlet>
+    </div>
+</div>

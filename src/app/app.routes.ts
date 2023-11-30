@@ -32,7 +32,10 @@ export const routes: Routes = [
     {
         path:'mobile',component:OffreMobileComponent
     },
-    
+    {
+        path:'admin',loadChildren:() => import('./admin/admin.module').then(m => m.AdminModule)
+    }
+
     
 
 ];
