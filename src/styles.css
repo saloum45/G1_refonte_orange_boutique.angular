@@ -25,6 +25,13 @@ position: relative;
 #btSearch{
     background-color: var(--bgorange);
     color: white;
-    font-weight: 700;
+    /* font-weight: 700; */
 }
 
+.headCategorie{
+    border-left: 8px solid var(--bgorange);
+    vertical-align: top;
+    padding: 5px;
+    color: var(--bgorange);
+    
+}
