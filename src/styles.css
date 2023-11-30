@@ -3,3 +3,28 @@
 :root{
     --bgorange:#FF6C00;
 }
+
+#imgSlide{
+    height: 40rem;
+}
+#btnBg{
+position: relative;
+    top: -8rem;
+    left: -55%;
+    width: 11rem;
+    background-color: var(--bgorange);
+    color: white;
+    font-weight: 700;
+}
+
+#containerSearch{
+    margin-left: 350px;
+    margin: 20px 0px 0px 350px;
+    gap: 5px;
+}
+#btSearch{
+    background-color: var(--bgorange);
+    color: white;
+    font-weight: 700;
+}
+
